@@ -1,6 +1,6 @@
 <template>
-    <div>
-        header
+    <div class="header-bg">
+        <div>content</div>
     </div>
 </template>
 <script>
@@ -12,3 +12,8 @@ export default {
     }
 }
 </script>
+<style lang="scss">
+    .header-bg {
+        height: 100vh;
+    }
+</style>
