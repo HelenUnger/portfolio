@@ -19,6 +19,9 @@
                 <a class="nav-link" href="#">Skills</a>
                 <a class="nav-link" href="#">My Work</a>
                 <a class="nav-link" href="#">Contact</a>
+                <span class="dark-mode-btn" @click="toggleMode()">
+                    NIGHT/DAY
+                </span>
             </div>
         </div>
     </div>
@@ -64,6 +67,9 @@ export default {
 
         .nav-links{
             text-align: center;
+            .dark-mode-btn {
+                display: none;
+            }
         }
 
         @media (min-width: 768px) {
@@ -72,7 +78,7 @@ export default {
             .nav-links{
                 text-align: right;
             }
-            .nav-item, a {
+            .nav-item, a, .dark-mode-btn {
                 display: inline;
             }
         }
