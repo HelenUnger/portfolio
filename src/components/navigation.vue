@@ -74,12 +74,13 @@ export default {
 
         @media (min-width: 768px) {
             left: 0;
-            height: auto;
+            height: 50px;
+            background-color: inherit;
             .nav-links{
                 text-align: right;
-            }
-            .nav-item, a, .dark-mode-btn {
-                display: inline;
+                .nav-item, a, .dark-mode-btn {
+                    display: inline;
+                }
             }
         }
     }
