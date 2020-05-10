@@ -1,9 +1,6 @@
 <template>
     <div id="app" :class="darkMode ? 'dark-mode' : 'day-mode'">
-        <Nav
-        :dark-mode="darkMode"
-        @dark-mode="toggleDarkMode($event)"
-        />
+        <Nav @dark-mode="toggleDarkMode($event)" />
         <Header/>
         <Skills />
         <About />

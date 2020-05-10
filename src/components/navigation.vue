@@ -26,17 +26,10 @@
 
 <script>
 export default {
-    props: {
-        darkMode: {
-            type: Boolean,
-            required: true
-        },
-    },
-
     data() {
         return {
             openNav: false,
-            localDarkMode: false
+            darkMode: true
         };
     },
 
@@ -45,8 +38,8 @@ export default {
             this.openNav = !this.openNav;
         },
         toggleMode() {
-            this.localDarkMode = ! this.darkMode;
-            this.$emit('dark-mode', this.localDarkMode);
+            this.darkMode = ! this.darkMode;
+            this.$emit('dark-mode', this.darkMode);
         }
     }
 }
