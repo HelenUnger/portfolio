@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-9.757 32.286 754.505 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="111.217" y1="85.775" x2="111.217" y2="252.021" id="gradient-0" gradientTransform="matrix(2.229415, 0, 0, 2.229415, -148.606963, -238.078206)">
+      <stop offset="0" style="stop-color: rgba(197, 63, 209, 1)"/>
+      <stop offset="1" style="stop-color: rgba(128, 33, 137, 1)"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="587.278" y1="85.775" x2="587.278" y2="285.299" id="gradient-1" spreadMethod="pad" gradientTransform="matrix(0.568634, -0.820257, 0.766078, 0.615312, 28.897461, 561.151642)">
+      <stop offset="0" style="stop-color: rgba(85, 145, 218, 1)"/>
+      <stop offset="1" style="stop-color: rgba(36, 94, 165, 1)"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="111.217" y1="85.775" x2="111.217" y2="252.021" id="gradient-4" gradientTransform="matrix(1.536669, -0.511907, 0.501064, 1.485067, 429.743376, 218.701385)">
+      <stop offset="0" style="stop-color: rgb(242, 101, 134);"/>
+      <stop offset="1" style="stop-color: rgb(224, 35, 79);"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="268.766" y1="146.003" x2="268.766" y2="252.021" id="gradient-3" gradientTransform="matrix(2.054889, 0, 0, 2.054889, -252.305704, -11.825668)">
+      <stop offset="0" style="stop-color: rgb(255, 251, 37);"/>
+      <stop offset="1" style="stop-color: rgb(226, 214, 47);"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="28.726" y1="370.02" x2="28.726" y2="506.048" id="gradient-2" gradientTransform="matrix(0.876523, 0.481359, -0.495745, 0.93667, 274.785942, 69.63442)">
+      <stop offset="0" style="stop-color: rgba(85, 218, 92, 1)"/>
+      <stop offset="1" style="stop-color: rgba(36, 165, 42, 1)"/>
+    </linearGradient>
+  </defs>
+  <circle style="fill: url(#gradient-0);" cx="99.342" cy="138.466" r="185.316"/>
+  <circle style="fill: url(#gradient-1);" cx="508.476" cy="188.623" r="99.571"/>
+  <circle style="fill: url(#gradient-4);" cx="664.177" cy="422.828" r="134.634"/>
+  <circle style="fill: url(#gradient-3);" cx="299.978" cy="397.121" r="108.927"/>
+  <circle style="fill: url(#gradient-2);" cx="87.577" cy="489.448" r="68.014"/>
+</svg>
