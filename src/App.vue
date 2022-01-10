@@ -38,7 +38,11 @@ export default {
 </script>
 
 <style lang="scss">
-#app{
+body {
+    margin: 0;
+}
+
+#app {
     max-width: 100vw;
     min-height: 100vh;
     overflow: hidden;

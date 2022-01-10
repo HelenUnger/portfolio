@@ -49,6 +49,7 @@ export default {
 </script>
 <style lang="scss" scoped>
     .navigation-container {
+        z-index: 1;
         position: relative;
     }
     .nav {
